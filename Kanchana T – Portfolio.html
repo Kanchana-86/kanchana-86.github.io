@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kanchana T – AI &amp; Computer Vision Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Serif+4:wght@400;600&display=swap">
+<style>
+:root{--bg:#eef2ec;--ink:#14281c;--muted:#4c5f52;--line:#c5d0c4;--box:#d6246e;--chip:#dde6da;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1a13;--ink:#e6efe4;--muted:#9db0a1;--line:#2a3d30;--box:#ff5c9a;--chip:#1a2a20;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f1a13;--ink:#e6efe4;--muted:#9db0a1;--line:#2a3d30;--box:#ff5c9a;--chip:#1a2a20;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.08rem/1.65 "Source Serif 4",Georgia,serif}
+.wrap{max-width:860px;margin:0 auto;padding:0 1.4rem}
+h1,h2,h3{font-family:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif;margin:0;line-height:1.1}
+a{color:inherit}
+a:focus-visible{outline:3px solid var(--box);outline-offset:3px}
+nav{display:flex;gap:1.4rem;flex-wrap:wrap;padding:1.3rem 0;font-family:"Bricolage Grotesque",Arial,sans-serif;font-weight:500;font-size:.95rem}
+nav a{text-decoration:none;color:var(--muted)}nav a:hover{color:var(--ink)}
+.hero{padding:3.5rem 0 3rem}
+.det{position:relative;display:inline-block;padding:.5rem 1rem 0.7rem;border:3px solid var(--box)}
+.det h1{font-size:clamp(3rem,11vw,6.5rem);font-weight:800;letter-spacing:-.03em}
+.tag{position:absolute;left:-3px;top:-1.7rem;background:var(--box);color:#fff;font:600 .8rem/1 "Bricolage Grotesque",Arial,sans-serif;padding:.4rem .55rem}
+.tag.b{top:auto;bottom:-1.7rem;left:auto;right:-3px;background:var(--ink);color:var(--bg)}
+.lead{margin:3.2rem 0 0;max-width:34rem;font-size:1.25rem}
+.meta{margin-top:1.4rem;color:var(--muted);font-size:.98rem}
+.meta a{margin-right:1.1rem}
+section{padding:2.6rem 0;border-top:1px solid var(--line)}
+h2{font-size:1.7rem;margin-bottom:1.3rem}
+.row{display:grid;grid-template-columns:1fr;gap:.3rem;padding:1.15rem 0;border-bottom:1px solid var(--line)}
+.row:last-child{border-bottom:0}
+.row h3{font-size:1.2rem}
+.row .k{color:var(--muted);font-size:.92rem;font-family:"Bricolage Grotesque",Arial,sans-serif}
+.row p{margin:.2rem 0 0;max-width:40rem}
+.chips{display:flex;flex-wrap:wrap;gap:.45rem;margin-top:.6rem}
+.chips span{background:var(--chip);padding:.15rem .65rem;font:500 .85rem/1.6 "Bricolage Grotesque",Arial,sans-serif}
+dl{margin:0}dt{font:700 1rem "Bricolage Grotesque",Arial,sans-serif;margin-top:1.1rem}dd{margin:.25rem 0 0;color:var(--muted)}
+footer{padding:2.5rem 0 3rem;border-top:1px solid var(--line);color:var(--muted);font-size:.95rem}
+@media(min-width:720px){.row{grid-template-columns:12rem 1fr;gap:1.5rem}.row .k{padding-top:.35rem}}
+@media(prefers-reduced-motion:no-preference){.det{animation:snap .7s ease-out both}@keyframes snap{from{clip-path:inset(0 100% 100% 0)}to{clip-path:inset(0)}}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav aria-label="Sections"><a href="#about">About</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact">Contact</a></nav>
+
+<header class="hero">
+  <div class="det"><span class="tag">ai engineer 0.98</span><h1>Kanchana T</h1><span class="tag b">bengaluru</span></div>
+  <p class="lead">I build AI systems that see: object detection, image segmentation and OCR, taken from a trained model to a working app.</p>
+  <p class="meta"><a href="mailto:kanchuk629@gmail.com">kanchuk629@gmail.com</a><a href="tel:+918217069203">+91 82170 69203</a><a href="#" id="li">LinkedIn</a><a href="#" id="gh">GitHub</a></p>
+</header>
+
+<section id="about">
+  <h2>About</h2>
+  <p>I recently finished my B.Tech (Honours) in Computer Science and Data Science. My work covers machine learning, computer vision and full stack development, using Python, PyTorch, TensorFlow, OpenCV, Django, Flask and SQL. I like problems where a model has to work outside a notebook, such as on a phone in a field or behind a web interface.</p>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="row"><div class="k">YOLOv11 · TensorFlow Lite · Flutter</div><div><h3>Crop vs Weed Detection</h3><p>Real-time crop and weed detection for agricultural monitoring. I annotated a custom dataset, trained YOLOv11, converted it to TensorFlow Lite and built a Flutter Android app with live camera detection, GPS tracking and CSV export for field data.</p></div></div>
+  <div class="row"><div class="k">U-Net · OpenCV</div><div><h3>Plant Disease Detection</h3><p>Pixel-level segmentation of diseased regions on pomegranate leaves. I built the dataset from video frames, generated leaf and infection masks and improved results with OpenCV preprocessing.</p></div></div>
+  <div class="row"><div class="k">CNN · 100,000+ images</div><div><h3>Deepfake Detection System</h3><p>A CNN trained on over 100,000 images, with a web interface that checks image authenticity in real time.</p></div></div>
+  <div class="row"><div class="k">Machine Learning · KBRS</div><div><h3>AI Internship Recommendation Platform</h3><p>Matches people to internships using skill extraction, skill gap analysis and a knowledge-based reasoning system.</p></div></div>
+  <div class="row"><div class="k">CNN · GAN · LSTM · 75,000+ images</div><div><h3>Emotion Forecasting using AI</h3><p>Deep learning models for emotion prediction, combining CNN, GAN, LSTM and style transfer.</p></div></div>
+  <div class="row"><div class="k">SQL</div><div><h3>Hotel Management System</h3><p>A relational database for hotel operations with optimized queries and full CRUD operations.</p></div></div>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <div class="row"><div class="k">TechQRT<br>May – Jul 2025</div><div><h3>HR Management System</h3><p>Built a multi-tenant HR system in Django with authentication, role-based access control, backend APIs, database models and CRUD workflows. Worked on scalability and performance.</p></div></div>
+  <div class="row"><div class="k">TechQRT<br>Aug 2024</div><div><h3>Summer Intern, OCR Document Processing</h3><p>Built a document processing system on Tesseract OCR with an upload interface and image preprocessing to raise accuracy.</p></div></div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <dl>
+    <dt>Languages and web</dt><dd><div class="chips"><span>Python</span><span>R</span><span>SQL</span><span>JavaScript</span><span>HTML</span><span>CSS</span><span>Django</span><span>Flask</span><span>REST APIs</span><span>Flutter</span><span>MySQL</span><span>Git</span></div></dd>
+    <dt>AI and data tools</dt><dd><div class="chips"><span>PyTorch</span><span>TensorFlow</span><span>TensorFlow Lite</span><span>Scikit-learn</span><span>OpenCV</span><span>YOLO</span><span>Tesseract OCR</span><span>Pandas</span><span>NumPy</span><span>Tableau</span><span>Power BI</span></div></dd>
+    <dt>Concepts</dt><dd><div class="chips"><span>Deep Learning</span><span>Computer Vision</span><span>CNN</span><span>GAN</span><span>LSTM</span><span>Object Detection</span><span>Image Segmentation</span><span>EDA</span><span>Feature Engineering</span></div></dd>
+  </dl>
+</section>
+
+<section id="education">
+  <h2>Education and certifications</h2>
+  <div class="row"><div class="k">2022 – 2026</div><div><h3>B.Tech (Honours), Computer Science and Data Science</h3><p>Vidyashilp University, Bengaluru</p></div></div>
+  <div class="row"><div class="k">2026</div><div><h3>Certifications</h3><p>AI Engineer Core Track (LLM Engineering, RAG, QLoRA, AI Agents). YOLOv7 Custom Object Detection, Udemy. R Programming, Simplilearn.</p></div></div>
+  <div class="row"><div class="k">Languages</div><div><p>English (fluent), Kannada (fluent), Telugu (intermediate)</p></div></div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Looking for AI, machine learning or computer vision roles. Write to <a href="mailto:kanchuk629@gmail.com">kanchuk629@gmail.com</a> or call <a href="tel:+918217069203">+91 82170 69203</a>.</p>
+</section>
+<footer>© Kanchana T · Bengaluru, Karnataka</footer>
+</div>
+<script>
+// EDIT: put your real profile links here
+document.getElementById('li').href='https://www.linkedin.com/';
+document.getElementById('gh').href='https://github.com/';
+</script>
+</body>
+</html>
